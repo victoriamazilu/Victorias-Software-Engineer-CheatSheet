@@ -4,9 +4,9 @@ Parameterized tests allow you to run the same test logic with different inputs, 
 
 ### Benefits of Parameterized Tests
 
-- **Reduce Code Duplication**: Instead of writing multiple test functions with similar logic, you can write one test function and run it with various inputs.
-- **Improve Test Coverage**: Easily test edge cases and a variety of input values.
-- **Maintainability**: Easier to update tests since changes need to be made in one place.
+-   **Reduce Code Duplication**: Instead of writing multiple test functions with similar logic, you can write one test function and run it with various inputs.
+-   **Improve Test Coverage**: Easily test edge cases and a variety of input values.
+-   **Maintainability**: Easier to update tests since changes need to be made in one place.
 
 ### Setting Up Parameterized Tests
 
@@ -33,6 +33,7 @@ Use the `@parameterized.expand` decorator to specify the different sets of param
 Below is an example of how to refactor two similar test cases into a single parameterized test:
 
 #### Original Tests
+
 Note that the two tests are identical except for updated_data -> notes
 
 ```python
